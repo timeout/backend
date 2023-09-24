@@ -1,1 +1,17 @@
+logging:
+  level:
+    root: info
 
+spring:
+  datasource:
+    initialization-mode: always
+    username: teacher
+    password: secret
+    url: jdbc:postgresql://localhost:5432/grader
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      format_sql: true
+    show-sql: true

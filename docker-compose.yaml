@@ -1,0 +1,12 @@
+---
+version: '3'
+services:
+  db:
+     image: postgres:12
+     restart: always
+     environment:
+        POSTGRES_USER: teacher
+        POSTGRES_PASSWORD: secret
+        POSTGRES_DB: grader
+     ports:
+        - 5432:5432

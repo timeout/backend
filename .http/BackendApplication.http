@@ -1,0 +1,129 @@
+
+POST http://127.0.0.1:8080/teachers
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstName": "Christine",
+  "lastName": "Gohl"
+}
+
+###
+
+GET http://127.0.0.1:8080/teachers/1
+Accept: application/json
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8080/class
+Accept: application/json
+Content-Type: application/json
+
+{
+  "year": 6,
+  "subject": "English"
+}
+
+###
+
+PUT http://127.0.0.1:8080/class/1/teacher
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+###
+
+PUT http://127.0.0.1:8080/class/1/student
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+###
+
+GET http://127.0.0.1:8080/students
+Accept: application/json
+
+<> 2023-07-23T202109.200.json
+<> 2023-07-23T200933.200.json
+<> 2023-07-23T200537.405.json
+<> 2023-07-23T200502.405.json
+<> 2023-07-23T200406.405.json
+<> 2023-07-23T181213.200.json
+<> 2023-07-23T181122.200.json
+<> 2023-07-23T172738.200.json
+<> 2023-07-23T172344.200.json
+<> 2023-07-23T172336.200.json
+<> 2023-07-23T113026.200.json
+<> 2023-07-23T110406.200.json
+<> 2023-07-23T110258.200.json
+<> 2023-07-23T105549.500.json
+<> 2023-07-23T105453.500.json
+<> 2023-07-23T105441.200.json
+<> 2023-07-23T104736.404.json
+<> 2023-07-23T104733.500.json
+
+###
+
+POST http://127.0.0.1:8080/students
+Accept: application/json
+Content-Type: application/json
+
+{
+"firstName": "Billy",
+"lastName": "Moore"
+}
+
+<> 2023-07-23T204140.200.json
+<> 2023-07-23T203823.200.json
+<> 2023-07-23T203307.200.json
+<> 2023-07-23T202806.200.json
+<> 2023-07-23T202322.200.json
+<> 2023-07-23T202113.200.json
+<> 2023-07-23T201438.200.json
+<> 2023-07-23T200938.200.json
+<> 2023-07-23T200302.405.json
+<> 2023-07-23T181207.201.json
+<> 2023-07-23T175955.201.json
+<> 2023-07-23T175023.201.json
+<> 2023-07-23T174828.201.json
+<> 2023-07-23T173657.201.json
+<> 2023-07-23T172733.201.json
+<> 2023-07-23T172341.201.json
+<> 2023-07-23T112918.201.json
+<> 2023-07-23T110348.201.json
+<> 2023-07-23T110325.400.json
+<> 2023-07-23T110313.400.json
+<> 2023-07-23T105839.400.json
+<> 2023-07-23T105800.400.json
+<> 2023-07-23T105746.400.json
+<> 2023-07-23T104933.404.json
+<> 2023-07-23T104842.404.json
+###
+
+PUT http://127.0.0.1:8080/students/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "first exam",
+  "rawMark": 10,
+  "totalMark": 30,
+  "grade": 3
+}
+
+<> 2023-07-23T203826.200.json
+<> 2023-07-23T202329.200.json
+<> 2023-07-23T202117.200.json
+<> 2023-07-23T201442.200.json
+<> 2023-07-23T201349.200.json
+<> 2023-07-23T201128.200.json
+
+###
+
